@@ -5,3 +5,123 @@ body {
   margin: 0;
   padding: 0;
 }
+main {
+  height: 100vh;
+  background-color: hsl(233, 47%, 7%);
+  display: grid;
+  grid-template-columns: 83%;
+  grid-template-rows: 60%;
+  justify-content: center;
+  align-content: center;
+}
+
+.container_card {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 9px;
+}
+
+.detailes {
+  height: 100%;
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+article.main {
+  height: 50%;
+  width: 70%;
+  margin-top: -40px;
+}
+
+.headline {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+.purple_word {
+  color: hsl(277, 64%, 61%);
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  height: 40%;
+  line-height: 180%;
+  margin-top: -20px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 16.5px;
+  width: 80%;
+}
+
+.stats {
+  height: 15%;
+  width: 70%;
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 0%, 100%);
+  display: grid;
+  grid-template-columns: 23% 23% 23%;
+  grid-template-rows: 100%;
+  column-gap: 10%;
+}
+
+.stats data {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.word {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.pic {
+  width: 45%;
+  height: 100%;
+  border-bottom-right-radius: 9px;
+  border-top-right-radius: 9px;
+  background-color: hsl(277, 97%, 48%);
+  opacity: 1.9;
+}
+
+.pic_desktop {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom-right-radius: 9px;
+  border-top-right-radius: 9px;
+  opacity: 0.6;
+}
+
+.pic_mobile {
+  display: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom center;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  opacity: 0.6;
+}
+
+.attribution {
+  margin-top: 5px;
+  font-family: "Inter", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
